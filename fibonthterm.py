@@ -14,6 +14,7 @@ def fibonacci(n):
             c = a + b 
             a = b 
             b = c 
+            print(b)
         return b 
   
 # Driver Program 

@@ -7,6 +7,6 @@ def DtoO(decimal):
         octal = octal + (decimal % 8) * i
         decimal = int(decimal / 8)
         i = i * 10
-    return 
+    return octal
     
 print("The octal equivalent is :",DtoO(decimal))
