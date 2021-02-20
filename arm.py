@@ -1,3 +1,4 @@
+#take inputs
 x=int(input("Enter starting range"))
 y=int(input("Enter ending range"))
 if(x<y and x>0):
